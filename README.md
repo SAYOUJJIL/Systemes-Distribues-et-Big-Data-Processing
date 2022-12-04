@@ -36,5 +36,5 @@ Les applications qui en résultent sont d'une robustesse et d'une scalabilité s
 • La seule relation entre les différents micro services est l’échange de données effectué à travers les différentes APIs qu’ils exposent. (
 SOAP, REST, RMI, CORBA, JMS, MQP, ...)<br>
 • Lorsqu’on les combinent, ces micro services peuvent réaliser des opérations très complexes. <br>
-<h2>Démarche à suivre</h2>
-<img width="536" alt="image" src="https://user-images.githubusercontent.com/85376207/205502336-f9649ed1-b0c0-415f-b270-4122aa3eb966.png">
+<h2>Architecture Micro Services </h2>
+<img width="594" alt="image" src="https://user-images.githubusercontent.com/85376207/205503367-b77ee1ed-4bd6-493b-a7c2-093186dff50b.png">
