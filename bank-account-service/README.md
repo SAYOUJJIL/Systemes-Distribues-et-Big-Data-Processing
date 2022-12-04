@@ -76,7 +76,7 @@ modes embarqué et serveur ainsi qu'une console basée sur un navigateur applica
      <br><b>==> Cas communication QraphQl </b> <br>  <BR>
     <img width="650" alt="image" src="https://user-images.githubusercontent.com/85376207/205506720-5d604e79-b135-41cb-983c-eb8a0311579b.png">
 </ol>
-<h2>Schema QraphQl </h2>  
+<h2>Schema GraphQL </h2>  
   
     type Query{
     accountList : [BankAccount],
