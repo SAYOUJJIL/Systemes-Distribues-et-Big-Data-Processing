@@ -37,11 +37,10 @@ distribuées sous <b>format XML </b> Avec le protocol http qu'on va transporter 
 
 
 <H2>Quelques Captures de test</H2>
-  <img width="933" alt="image" src="https://user-images.githubusercontent.com/85376207/205513122-38f2c1ac-b264-467b-9b9c-4b5e85bfa616.png">
+<img width="443" alt="image" src="https://user-images.githubusercontent.com/85376207/205513629-0e1b5c9d-f009-410d-b832-ae561cf12d5e.png">
+<img width="446" alt="image" src="https://user-images.githubusercontent.com/85376207/205513618-a109c5d8-b9ad-4d34-8576-cf71b7b1b30b.png">
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/85376207/205513607-2e14bca6-c368-4069-97bc-2061a1b9181c.png">
+<img width="733" alt="image" src="https://user-images.githubusercontent.com/85376207/205513591-91ee1d72-e29b-4001-ba1e-0e5aec0102cb.png">
+<img width="719" alt="image" src="https://user-images.githubusercontent.com/85376207/205513578-4da18dc9-951d-4bfe-afb2-887d5cd781ea.png">
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/85376207/205513572-f990f1ca-f3f1-40d0-9030-6a30022cf485.png">
 
-  <img width="933" alt="image" src="https://user-images.githubusercontent.com/85376207/205513110-f82898db-06b2-4e11-bb4f-3f4021f7975a.png">
-  <img width="933" alt="image" src="https://user-images.githubusercontent.com/85376207/205513091-a00d518e-5461-4167-9159-0ac386f7f471.png">
-
-  <img width="933" alt="image" src="https://user-images.githubusercontent.com/85376207/205513078-91a5f6fa-903c-4939-9efc-91791504b4c3.png">
-  <img width="933" alt="image" src="https://user-images.githubusercontent.com/85376207/205513064-4b34c396-cfbd-47af-aaec-8603a93e0c00.png">
-<img width="933" alt="image" src="https://user-images.githubusercontent.com/85376207/205513048-74597acc-ef11-453d-801f-e86e849dc8e0.png">
