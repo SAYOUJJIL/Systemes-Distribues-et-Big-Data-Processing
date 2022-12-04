@@ -76,8 +76,40 @@ modes embarqué et serveur ainsi qu'une console basée sur un navigateur applica
      <br><b>==> Cas communication QraphQl </b> <br>  <BR>
     <img width="650" alt="image" src="https://user-images.githubusercontent.com/85376207/205506720-5d604e79-b135-41cb-983c-eb8a0311579b.png">
 </ol>
-<h2>Schema QraohQl </h2>  
-    <img width="641" alt="image" src="https://user-images.githubusercontent.com/85376207/205507033-f749f242-1b51-4996-b4d7-37b61a245cfe.png">
-    <img width="644" alt="image" src="https://user-images.githubusercontent.com/85376207/205507053-9eefaef0-dabf-4723-b4ee-83e4262153d8.png">
+<h2>Schema QraphQl </h2>  
+  
+    type Query{
+    accountList : [BankAccount],
+    bankAccountById (id:String) : BankAccount,
+    customers : [Customer]
+
+    }
+
+    type Mutation{
+       addAccount(bankAccount : BankAccountDTO) : BankAccount,
+       updateAccount(id : String,bankAccount : BankAccountDTO) : BankAccount,
+       deleteAccount(id : String) : String,
+    }
+
+    type BankAccount{
+        id : String,
+        createdAt : Float,
+        balance : Float,
+        currency : String,
+        type : String,
+        customer : Customer
+    }
+
+    type Customer{
+        id:ID,
+        name:String,
+        bankAccounts : [BankAccount],
+    }
+
+    input BankAccountDTO{
+         balance : Float,
+         currency : String,
+         type : String
+    }
 
 
