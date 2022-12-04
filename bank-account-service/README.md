@@ -14,19 +14,39 @@ dans cette partie du cours nous allons suivre toutes les étapes de création de
   Cela souffre également lorsque le client a besoin de données provenant de plusieurs ressources simultanément, comme la demande d'un article de blog et de commentaires. En règle générale, ce problème est résolu en demandant au client de faire plusieurs requêtes ou en demandant au serveur de fournir des données supplémentaires qui ne sont pas toujours nécessaires, ce qui entraîne des tailles de réponse plus importantes.<br>
   GraphQL offre une solution à ces deux problèmes . Il permet au client de spécifier exactement les données qu'il souhaite, y compris la navigation dans les ressources enfants dans une seule requête et permet plusieurs requêtes dans une seule requête.<br>
   Pour utiliser graphQl <br>
-  1-Configurer le service<br>
-  Tout ce dont nous avons besoin pour que cela fonctionne, ce sont les bonnes dépendances : <br>
-  <img width="629" alt="image" src="https://user-images.githubusercontent.com/85376207/205506472-7a535e9a-3d23-4955-bcbb-a004456fd7f5.png">
-  <br>
-  2-Ecrire le schéma<br>
+  1-Configurer le service<br><br>
+  
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-graphql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
+  2-Ecrire le schéma<br><br>
   Le démarreur GraphQL Boot fonctionne en traitant les fichiers de schéma GraphQL pour créer la structure correcte, puis câble des beans spéciaux à cette structure. Le démarreur Spring Boot GraphQL trouve automatiquement ces fichiers de schéma . <br>
 
 Nous devons enregistrer ces fichiers de schéma " .graphqls " ou " .gqls " sous l'emplacement src/main/resources/graphql/** , et Spring Boot les récupérera automatiquement. Comme d'habitude, nous pouvons personnaliser les emplacements avec spring.graphql.schema.locations et les extensions de fichier avec les propriétés de configuration spring.graphql.schema.file-extensions .<br>
 <h2>Création des differentes couches de l'application </h2>  
 <ol>
   <h3><li>Création d'un projet spring</li></h3>
-<img width="471" alt="image" src="https://user-images.githubusercontent.com/85376207/205504210-da4eeb2b-2094-4f78-93e6-d14c0ecb7e7a.png">
-<img width="471" alt="image" src="https://user-images.githubusercontent.com/85376207/205504175-2b18e347-a878-4663-a488-819a50c1c691.png">
+  Lors de la création du projet nous aurons besoins des dépendances suivantes :
+  
+  - <code>Spring Web </code> : créez des applications Web, y compris RESTful, à l'aide de MVC du printemps. Utilise Apache Tomcat comme conteneur intégré par défaut. <br>
+
+- <code>Spring Data JPA </code>: conserver les données dans les magasins SQL avec Java Persistence API utilisant Spring Data et Hibernate. <br>
+
+- <code>H2 Database </code> : Fournit une base de données en mémoire rapide qui prend en charge JDBC Accès API et R2DBC, avec une petite empreinte (2 Mo). Les soutiens
+modes embarqué et serveur ainsi qu'une console basée sur un navigateur application. <br>
+
+- <code>Lombok</code> : bibliothèque d'annotations Java qui aide à réduire le passe-partout code. <br>
+
+- <code>Spring Boot DevTools</code> : Fournit des redémarrages rapides des applications, LiveReload et configurations pour une expérience de développement améliorée. <br>
+
+- <code>Spring web</code> 
+
   <h3><li>Couche DAO</li></h3>
   <BR><b>==> Entities</b> <br>  <BR>
   <img width="644" alt="image" src="https://user-images.githubusercontent.com/85376207/205504589-182488f8-c32c-4d48-b797-cd54ea6942e9.png">
