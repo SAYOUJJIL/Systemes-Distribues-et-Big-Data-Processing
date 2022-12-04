@@ -10,7 +10,7 @@ dans cette partie du cours nous allons suivre toutes les étapes de création de
 * Couche Web <br>
 * Utilisation de la communication REST API (RESTCONTROLLER ou Spring DATA REST)
 * Utilisation de la communication de GraphQ <br>
-<h2>prérequis</h2>
+<h2Prérequis</h2>
   Les API REST traditionnelles fonctionnent avec le concept de ressources gérées par le serveur. Nous pouvons manipuler ces ressources de manière standard, en suivant les différents verbes HTTP. Cela fonctionne très bien tant que notre API correspond au concept de ressource, mais s'effondre rapidement lorsque nous devons nous en écarter.<br>
   Cela souffre également lorsque le client a besoin de données provenant de plusieurs ressources simultanément, comme la demande d'un article de blog et de commentaires. En règle générale, ce problème est résolu en demandant au client de faire plusieurs requêtes ou en demandant au serveur de fournir des données supplémentaires qui ne sont pas toujours nécessaires, ce qui entraîne des tailles de réponse plus importantes.<br>
   GraphQL offre une solution à ces deux problèmes . Il permet au client de spécifier exactement les données qu'il souhaite, y compris la navigation dans les ressources enfants dans une seule requête et permet plusieurs requêtes dans une seule requête.<br>
