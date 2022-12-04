@@ -24,7 +24,6 @@ Enfin, vous apprendrez à gérer les erreurs, tester votre Microservice et gén�
 
 
 <h2>Qui ce qu'une approche Micro services ? </h2>
-ي
 Les applications qui en résultent sont d'une robustesse et d'une scalabilité sans précédent. La complexité de l'application s'en trouve divisée en petits problèmes, facilement abordables. La  résilience de l'application s'en trouve ainsi décuplée.
 
 <h2>Avantages</h2>
