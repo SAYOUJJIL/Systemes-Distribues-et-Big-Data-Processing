@@ -12,9 +12,9 @@ Ces étapes seront concrétisées à travers les projets suivants : <br><BR>
     <td>1</td>
     <td>Projet 1 : bank-account-service </td>
     <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/bank-account-service">🔗</a></td>
-        <td>1</td> 
   </tr>
   <tr>
+     <td>2</td> 
     <td>Projet 2 : Mise en oeuvre d'une architecture micro-services  </td>
     <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Mise%20en%20oeuvre%20d'une%20architecture%20micro-services">🔗</a></td>
   </tr>
