@@ -1,3 +1,4 @@
+<H1 align="center"> Premier Micro Service : bank-account-service</H1>
 <h2>Objectifs </h2>
 Créer le micro service bank-account-service  qui utilise API GraphQl 
 <h2>Decription du projet </h2>
@@ -13,8 +14,8 @@ dans cette partie du cours nous allons suivre toutes les étapes de création de
   Les API REST traditionnelles fonctionnent avec le concept de ressources gérées par le serveur. Nous pouvons manipuler ces ressources de manière standard, en suivant les différents verbes HTTP. Cela fonctionne très bien tant que notre API correspond au concept de ressource, mais s'effondre rapidement lorsque nous devons nous en écarter.<br>
   Cela souffre également lorsque le client a besoin de données provenant de plusieurs ressources simultanément, comme la demande d'un article de blog et de commentaires. En règle générale, ce problème est résolu en demandant au client de faire plusieurs requêtes ou en demandant au serveur de fournir des données supplémentaires qui ne sont pas toujours nécessaires, ce qui entraîne des tailles de réponse plus importantes.<br>
   GraphQL offre une solution à ces deux problèmes . Il permet au client de spécifier exactement les données qu'il souhaite, y compris la navigation dans les ressources enfants dans une seule requête et permet plusieurs requêtes dans une seule requête.<br>
-  Pour utiliser graphQl <br>
-  1-Configurer le service<br><br>
+  Pour utiliser graphQl <br><bR>
+  <b>1-Configurer le service<br><br></b>
   
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -25,7 +26,7 @@ dans cette partie du cours nous allons suivre toutes les étapes de création de
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         
-  2-Ecrire le schéma<br><br>
+  <b>2-Ecrire le schéma<br><br></b>
   Le démarreur GraphQL Boot fonctionne en traitant les fichiers de schéma GraphQL pour créer la structure correcte, puis câble des beans spéciaux à cette structure. Le démarreur Spring Boot GraphQL trouve automatiquement ces fichiers de schéma . <br>
 
 Nous devons enregistrer ces fichiers de schéma " .graphqls " ou " .gqls " sous l'emplacement src/main/resources/graphql/** , et Spring Boot les récupérera automatiquement. Comme d'habitude, nous pouvons personnaliser les emplacements avec spring.graphql.schema.locations et les extensions de fichier avec les propriétés de configuration spring.graphql.schema.file-extensions .<br>
@@ -46,9 +47,8 @@ modes embarqué et serveur ainsi qu'une console basée sur un navigateur applica
 - <code>Spring Boot DevTools</code> : Fournit des redémarrages rapides des applications, LiveReload et configurations pour une expérience de développement améliorée. <br>
 
 - <code>Spring web</code> 
-
-  <h3><li>Couche DAO</li></h3>
-  <BR><b>==> Entities</b> <br>  <BR>
+<h3><li>Couche DAO</li></h3>
+<b>==> Entities</b> <br>  <BR>
   <img width="644" alt="image" src="https://user-images.githubusercontent.com/85376207/205504589-182488f8-c32c-4d48-b797-cd54ea6942e9.png">
   <img width="646" alt="image" src="https://user-images.githubusercontent.com/85376207/205504605-b0ef8593-d124-4ffc-b8d8-e4222fbd25a8.png">
   <img width="644" alt="image" src="https://user-images.githubusercontent.com/85376207/205507006-eba81895-1d09-4978-a50b-c8db49bee676.png">
