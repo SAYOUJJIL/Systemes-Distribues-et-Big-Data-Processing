@@ -27,18 +27,14 @@ Enfin, vous apprendrez à gérer les erreurs, tester votre Microservice et gén�
 Les applications qui en résultent sont d'une robustesse et d'une scalabilité sans précédent. La complexité de l'application s'en trouve divisée en petits problèmes, facilement abordables. La  résilience de l'application s'en trouve ainsi décuplée.
 
 <h2>Avantages</h2>
-Chaque service est responsable d’une fonctionnalité,
-• Chaque micro-service est développé, testé et déployé
-séparément des autres.
-• Chaque micro service est développé en utilisant une technologie qui
-peut être différente des autres. (Java, C++, C#, PHP, NodeJS, Pyton,
-...)
-• Chaque service tourne dans un processus séparé.
-• Utilisant des mécanismes de communication légers (REST)
-• La seule relation entre les différents micro services est l’échange de
-données effectué à travers les différentes APIs qu’ils exposent. (
-SOAP, REST, RMI, CORBA, JMS, MQP, ...)
-• Lorsqu’on les combinent, ces micro services peuvent réaliser des
-opérations très complexes.
+• Chaque service est responsable d’une fonctionnalité, <br>
+• Chaque micro-service est développé, testé et déployé séparément des autres. <br>
+• Chaque micro service est développé en utilisant une technologie qui peut être différente des autres. (Java, C++, C#, PHP, NodeJS, Pyton,
+...)<br>
+• Chaque service tourne dans un processus séparé. <br>
+• Utilisant des mécanismes de communication légers (REST) <br>
+• La seule relation entre les différents micro services est l’échange de données effectué à travers les différentes APIs qu’ils exposent. (
+SOAP, REST, RMI, CORBA, JMS, MQP, ...)<br>
+• Lorsqu’on les combinent, ces micro services peuvent réaliser des opérations très complexes. <br>
 <h2>Démarche à suivre</h2>
 <img width="536" alt="image" src="https://user-images.githubusercontent.com/85376207/205502336-f9649ed1-b0c0-415f-b270-4122aa3eb966.png">
