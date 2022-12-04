@@ -38,7 +38,7 @@ distribuées sous <b>format XML </b> Avec le protocol http qu'on va transporter 
 
 <H2>Quelques Captures de test</H2>
 <img width="443" alt="image" src="https://user-images.githubusercontent.com/85376207/205513629-0e1b5c9d-f009-410d-b832-ae561cf12d5e.png">
-<img width="446" alt="image" src="https://user-images.githubusercontent.com/85376207/205513618-a109c5d8-b9ad-4d34-8576-cf71b7b1b30b.png">
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/85376207/205513618-a109c5d8-b9ad-4d34-8576-cf71b7b1b30b.png">
 <img width="698"  alt="image" src="https://user-images.githubusercontent.com/85376207/205513607-2e14bca6-c368-4069-97bc-2061a1b9181c.png">
 <img width="698"  alt="image" src="https://user-images.githubusercontent.com/85376207/205513591-91ee1d72-e29b-4001-ba1e-0e5aec0102cb.png">
 <img width="698"  alt="image" src="https://user-images.githubusercontent.com/85376207/205513578-4da18dc9-951d-4bfe-afb2-887d5cd781ea.png">
