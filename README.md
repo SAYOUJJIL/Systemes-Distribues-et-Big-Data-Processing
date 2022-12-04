@@ -18,6 +18,11 @@ Ces étapes seront concrétisées à travers les projets suivants : <br><BR>
     <td>Projet 2 : Mise en oeuvre d'une architecture micro-services  </td>
     <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Mise%20en%20oeuvre%20d'une%20architecture%20micro-services">🔗</a></td>
   </tr>
+    <tr>
+     <td>3</td> 
+    <td>Projet 3 : Activité Pratique N° 2 : Web services SOAP, WSDL, UDDI avec JAXWS  </td>
+    <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Web%20services%20SOAP%20WDSL%20UDDI%20Use%20case%20avec%20JAXWS">🔗</a></td>
+  </tr>
   
 </table>  
 <h2>Objectifs du cours</h2>
