@@ -1,6 +1,6 @@
 <H1 align="center"> Premier Micro Service : bank-account-service</H1>
 <h2>Objectifs </h2>
-Créer le micro service bank-account-service  qui utilise API GraphQl 
+Créer le micro service bank-account-service  qui utilise le service web GraphQl 
 <h2>Decription du projet </h2>
 dans cette partie du cours nous allons suivre toutes les étapes de création de ce micro service <br>
 * Création Couche DAO<br>
