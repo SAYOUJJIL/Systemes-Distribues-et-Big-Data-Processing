@@ -42,6 +42,8 @@ Dans ce projet nous allons utiliser <code>Consul</code>
   * Config Server<BR>
   * Spring Actuator<BR>
   * Consul Discovery<BR>
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205590089-1094a389-7b61-4185-9e8e-be7b6cb4cfa2.png">
+
 <h3>2. ConfigServiceApplication </h3>
  - Pour créer un service de configuration nous aurons besoins de :
  
@@ -83,13 +85,30 @@ Dans ce projet nous allons utiliser <code>Consul</code>
 <img width="686"  alt="image" src="https://user-images.githubusercontent.com/85376207/205521900-424fe88f-e61f-4e29-a326-a8884fe0064c.png">
 
 <H2><code>Billing-service</code></H2>
+Avec ce icro service on va utiliser Vault qui permet le partge des secret
 <h3>1. Dépendances </h3>
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205518087-fb7212c8-e5aa-4793-ba2b-33e41275b1f9.png">
-<h3>2. Couche DAO </h3>
+<h3>2.Configuration sur consul </h3>
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205592036-d09404b2-0f80-4ec0-bb3a-514b7b84a82a.png">
+
 <h3>3. Web</h3>
 <h3>4.Configuration</h3>
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205596814-219886eb-53c9-4207-956f-96eeeee3c245.png">
 <h3>3. Captures de tests</h3>
 
+Pour démarer vault : 
+    vault server -dev
+Puis on accede à la page web de vault
+    http://127.0.0.1:8200
+    <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205596744-bbc44c57-35b9-44b5-8847-4e5404c2b661.png">
+Créer une nouvelle clé 
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205598274-d859c95b-a4e0-4209-ad5d-5d319976d994.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205598325-300804af-ed17-4121-b2f0-8d93f2215497.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205598548-c40f6c0a-3eb9-469f-845c-a41acb80c3e5.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205598679-3752d64e-6720-439e-ad28-369989005a6a.png">
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/85376207/205599648-12bb7529-bb64-4f32-9c08-683efc39a9ac.png">
+<img width="685" alt="image" src="https://user-images.githubusercontent.com/85376207/205599718-0f025673-84d6-4c09-b557-a84942b58c9a.png">
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/85376207/205599840-287eb930-2141-4455-b4ad-77031f59b2e8.png">
 
 <H2><code>Inventory-service</code></H2>
 <h3>1. Dépendances </h3>
@@ -153,3 +172,8 @@ Dans ce projet nous allons utiliser <code>Consul</code>
         }
  <h3>3. Fichier de configuration </h3>
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205521796-d4594c7d-dfec-4ddf-a2c8-31e47e54075b.png">
+<br> <bR>
+
+<H2>**********************************************************************************************</H2>
+<code>Partie frontend</code>
+
