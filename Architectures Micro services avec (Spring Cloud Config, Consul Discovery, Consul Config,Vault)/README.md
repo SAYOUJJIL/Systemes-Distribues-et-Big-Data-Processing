@@ -143,14 +143,13 @@ Créer une nouvelle clé
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205523257-0a77b562-c65c-4f9d-b6e7-7382596a50e4.png">
 
 <h3>4. Services</h3>
- Pour recuprer les données depuis un autre service, il faut ajouter la dépendance 
+ Pour récuprer les données depuis un autre service, il faut ajouter la dépendance 
           
          <dependency>
              <groupId>org.springframework.cloud</groupId>
              <artifactId>spring-cloud-starter-openfeign</artifactId>
          </dependency>
  
-<img width=width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205523274-86966cea-8130-430a-b35b-57a64b7c0f2e.png">
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205523292-3a0298a1-7dd5-4b15-ae6c-baa2c60610b3.png">
 
 <h3>5. Web</h3>
@@ -172,8 +171,43 @@ Créer une nouvelle clé
         }
  <h3>3. Fichier de configuration </h3>
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205521796-d4594c7d-dfec-4ddf-a2c8-31e47e54075b.png">
+  Créer un autre fichier de configuration <b><code>application.yml</code></b><br>
+  puis Ajouter le code suivant : (ci ya une requete qui me provient de ce serveur http://localhost:4200 accepte le 
+  
+    
+      spring:
+        cloud:
+          gateway:
+            globalcors:
+              corsConfigurations:
+                '[/**]':
+                  allowedOrigins: "http://localhost:4200"
+                  allowedHeaders: "*"
+                  allowedMethods:
+                    - GET
+                    - POST
+                    - PUT
+                    - DELETE
 <br> <bR>
 
-<H2>**********************************************************************************************</H2>
-<code>Partie frontend</code>
+*****************************************************************
+<H2><code>Partie frontend</code></H2>
 
+1. Créer un nouveau projet Angular : 
+  
+        ng new ecom-web-app
+
+2. Ajouter les dépendances 
+  
+        npm install --save bootstrap bootstrap-icons
+ 
+3.  Integrer Bootstrap dans Angular.json
+  
+        "styles": [
+            src/styles.css",
+           "node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
+        scripts": [
+          "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+        ]
+  
