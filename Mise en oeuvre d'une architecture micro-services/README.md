@@ -156,4 +156,3 @@ les dépendes que nous aurons besoins dans ce projets sont :
 <img width="920" alt="image" src="https://user-images.githubusercontent.com/85376207/205510073-0f26c78a-4221-4923-81d5-cf31fcd6d00b.png">
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/85376207/205510088-ced28a66-9b92-468f-ac88-eca25e39c4a5.png">
 
-
