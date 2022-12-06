@@ -25,7 +25,7 @@ Ces étapes seront concrétisées à travers les projets suivants : <br><BR>
   </tr>
       <tr>
      <td>4</td> 
-    <td> Activité Pratique N° 3 : Web services SOAP, WSDL, UDDI avec JAXWS  </td>
+    <td> Activité Pratique N° 3 : Architectures Micro services avec (Spring Cloud Config, Consul Discovery, Consul Config,Vault)  </td>
     <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Architectures%20Micro%20services%20avec%20(Spring%20Cloud%20Config%2C%20Consul%20Discovery%2C%20Consul%20Config%2CVault)">🔗</a></td>
   </tr>
   
