@@ -213,3 +213,9 @@ Créer une nouvelle clé
   
 4.Captures <br> <bR>
 <img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205909249-0821b906-d1ed-4e50-bb75-0c7d6e9bac5d.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205920991-7b625466-7d72-48e3-97e0-523e84c5ebf0.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205922659-72abf29d-3898-4f5a-bae1-e92577752938.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205922911-ec27beae-118f-4ece-a9c3-2b07df84320a.png">
+
+
+
