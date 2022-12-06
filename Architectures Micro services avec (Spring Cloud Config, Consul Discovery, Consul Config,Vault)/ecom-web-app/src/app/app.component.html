@@ -1,0 +1,28 @@
+<!-- Grey with black text -->
+<nav
+  class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+>
+  <a href="index.html" class="navbar-brand d-flex align-items-center">
+    <h3 class="m-0" style="color: #0068B3">
+      <img
+        class="img-fluid me-3"
+        src="../assets/shopbism_Icon.png"
+        alt=""
+      />Ecom-App
+    </h3>
+  </a>
+  <button  type="button"  class="navbar-toggler"  data-bs-toggle="collapse"  data-bs-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
+      <a routerLink="home" class="nav-item nav-link"  routerLinkActive="active">Home</a>
+      <a routerLink="products" class="nav-item nav-link"  routerLinkActive="active">Products</a>
+      <a routerLink="customers" class="nav-item nav-link"  routerLinkActive="active" >Customers</a>
+    </div>
+  </div>
+  <a href="" class="btn btn-primary px-3 d-none d-lg-block">logout</a>
+</nav>
+<router-outlet>
+
+</router-outlet>

@@ -1,0 +1,36 @@
+<div class="container">
+  <BR>
+  <h1>All Customers</h1> <br> <br>
+  <select (change)="onTableSizeChange($event)">
+    <option *ngFor="let size of tableSizes">
+      {{size}}
+    </option>
+  </select> <BR> <BR>
+  <table class="table" *ngIf="customers">
+    <thead>
+    <tr>
+      <th>ID</th> <th>Name</th> <th>Email</th> <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let c of customers._embedded.customers | paginate : {
+                  itemsPerPage: tableSize,
+                  currentPage: page,
+                  totalItems: count } let i = index">
+      <td>{{c.id}}</td>
+      <td>{{c.name}}</td>
+      <td>{{c.email}}</td>
+      <td>
+        <button class="btn btn-success" (click)="getOrders(c)">Orders</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <div class="d-flex justify-content-center">
+    <pagination-controls
+      previousLabel="Précédante"
+      nextLabel="Suivante"
+      (pageChange)="onTableDataChange($event)"
+    >
+    </pagination-controls>
+</div>
