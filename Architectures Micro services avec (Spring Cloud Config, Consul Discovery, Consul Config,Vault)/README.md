@@ -211,3 +211,5 @@ Créer une nouvelle clé
           "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
         ]
   
+4.Captures <br> <bR>
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/85376207/205909249-0821b906-d1ed-4e50-bb75-0c7d6e9bac5d.png">
