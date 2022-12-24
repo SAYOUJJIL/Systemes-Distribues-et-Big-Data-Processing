@@ -136,10 +136,7 @@ Il y a trois manières de s'authentifier via mot de passe , refresh Token (préc
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435809-fab5965e-7dc3-4280-bdb7-195f7cfd6d66.png">
  
 ## <code>2. Partie  2 : Sécuriser L'architecture Micro services </code>
-### > Customer-service
-### > Inventory-service
-### > Order-service
-
+<a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Architectures%20Micro%20services%20avec%20(Spring%20Cloud%20Config%2C%20Consul%20Discovery%2C%20Consul%20Config%2CVault)">Code Source</a>
 
 
 
