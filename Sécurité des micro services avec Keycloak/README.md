@@ -1,5 +1,5 @@
  # Sécurité des micro services avec Keycloak
- ## Objectifs 
+ ### <code>Objectifs</code>
  <b>Partie 1</b> : 
 1. Télécharger Keycloak 19
 2. Démarrer Keycloak
@@ -20,7 +20,7 @@
    Sécuriser L'architecture Micro services Du projet Customer-service, Inventory-service et Order-service<BR>
    
 ---
- ### <code>1. Partie I : Keycloack</code>
+## <code>1. Partie I : Keycloack</code>
 ### 1.1.Qui ce qu'un <code>Keycloak</code>: <bR>
 Keycloack est outil , une solution complète permettant de sécuriser les applications.
 #### > Origine 
@@ -134,6 +134,11 @@ Il y a trois manières de s'authentifier via mot de passe , refresh Token (préc
  - Changer les paramètres des Tokens Access Token et Refresh Token
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435802-6112e74e-5a0b-47c8-acd5-a8a92b5b2865.png">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435809-fab5965e-7dc3-4280-bdb7-195f7cfd6d66.png">
+ 
+## <code>2. Partie  2 : Sécuriser L'architecture Micro services </code>
+### > Customer-service
+### > Inventory-service
+### > Order-service
 
 
 
