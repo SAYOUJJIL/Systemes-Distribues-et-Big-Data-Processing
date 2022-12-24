@@ -8,46 +8,52 @@ Eevent Sourcing : design pattern permettant de capturer tous les changements de 
 ## 3. Travail à faire 
 ### 3.1. Créer un nouveau projet nomé : <code>compte-cqrs-es</code>
 #### Dépendances 
-
+ > Spring JPA
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
    <br>
-   
+ > Spring Web
+
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-      <br>
-      
+   <br>
+ > Mysql
+       
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
     </dependency>
-      <br>
-      
+   <br>
+   > Lombok
+    
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
     </dependency>
-      <br>
-      
+   <br>
+   > OpenApi
+    
     <dependency>
       <groupId>org.springdoc</groupId>
       <artifactId>springdoc-openapi-ui</artifactId>
       <version>1.5.2</version>
     </dependency>
-      <br>
-      
+   <br>
+     > MapStruct
+  
     <dependency>
       <groupId>org.mapstruct</groupId>
       <artifactId>mapstruct</artifactId>
       <version>1.4.2.Final</version>
     </dependency>
-      <br>
-      
+   <br>
+   > AXON
+  
     <dependency>
       <groupId>org.axonframework</groupId>
       <artifactId>axon-spring-boot-starter</artifactId>
@@ -59,6 +65,6 @@ Eevent Sourcing : design pattern permettant de capturer tous les changements de 
       </exclusion>
       </exclusions>
     </dependency>
-      <br>
+   <br>
       
     
