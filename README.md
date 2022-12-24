@@ -52,4 +52,4 @@ Les applications qui en résultent sont d'une robustesse et d'une scalabilité s
 SOAP, REST, RMI, CORBA, JMS, MQP, ...)<br>
 • Lorsqu’on les combinent, ces micro services peuvent réaliser des opérations très complexes. <br>
 <h2><code>Architecture Micro Services</code> </h2>
-<img width="594" alt="image" src="https://user-images.githubusercontent.com/85376207/205503367-b77ee1ed-4bd6-493b-a7c2-093186dff50b.png">
+<img width="100%" alt="image" src="https://user-images.githubusercontent.com/85376207/205503367-b77ee1ed-4bd6-493b-a7c2-093186dff50b.png">
