@@ -105,22 +105,36 @@ L'objectif de keycloack c'est quand on va lui déléguer toute la partie de la g
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209434176-7ea9e0e8-94e9-441a-9465-0aed8f2b7d24.png">
 
  ### 1.8 Avec PostMan :
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209434453-18155b54-711a-4d03-996f-107b2c61c2dc.png">
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209434522-2b85ab1a-fcbf-4add-b268-5b0817e49e88.png">
+Il y a trois manières de s'authentifier via mot de passe , refresh Token (précisez le token) et l'authentification avec Client ID et Client Secret
+ - Tester l'authentification avec le mot de passe
+ <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209434453-18155b54-711a-4d03-996f-107b2c61c2dc.png">
+ <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209434522-2b85ab1a-fcbf-4add-b268-5b0817e49e88.png">
  Renvoir du ID Token : 
  <img width="958" alt="image" src="https://user-images.githubusercontent.com/85376207/209434598-58cfc498-8960-42cd-8a6d-45cbe942689f.png">
- Savoir que JWt Contient :
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/85376207/209434799-15076cdf-2fce-4ed5-8192-a44c5f6da42c.png">
 
-    - Tester l'authentification avec le mot de passe
+ - Analyser les contenus des deux JWT Access Token et Refresh Token
+  Savoir que JWt Contient :
+  <img width="959" alt="image" src="https://user-images.githubusercontent.com/85376207/209434799-15076cdf-2fce-4ed5-8192-a44c5f6da42c.png">
+ - Tester l'authentification avec le Refresh Token
+ <img width="823" alt="image" src="https://user-images.githubusercontent.com/85376207/209435044-44aada01-d16f-4412-b7f6-c52dcaf2bda9.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209434944-c086848d-be73-4f1d-a31e-fd5f169dcad6.png">
+ <img width="958" alt="image" src="https://user-images.githubusercontent.com/85376207/209435101-10f1b3c3-f919-4055-9a08-ed9b493420ef.png">
 
-    - Analyser les contenus des deux JWT Access Token et Refresh Token
-    - Tester l'authentification avec le Refresh Token
-    - Tester l'authentification avec Client ID et Client Secret
-    - Changer les paramètres des Tokens Access Token et Refresh Token
+ - Tester l'authentification avec Client ID et Client Secret
+ <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435222-8a013f99-13dd-4502-ad09-6a1b862f9fe6.png">
+> wallet-client
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/85376207/209435232-7b48f9f0-f965-43e4-8760-ae924b608924.png">
+> Activer Client authentication : je dois authentifier l'app qui m'envoie l'auth
+ <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435257-4f1b6f73-49a0-45ee-a76e-ef1a76a3c6df.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435309-9d5a81ab-2315-4b93-a589-fd4f4d887564.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435325-2e93015f-355c-42b8-9475-3ae36dc06b00.png">
+> Copier Client secret
+ <img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435628-efa77f69-4923-46bf-b08b-b219b94888d2.png">
 
+ - Changer les paramètres des Tokens Access Token et Refresh Token
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435802-6112e74e-5a0b-47c8-acd5-a8a92b5b2865.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/85376207/209435809-fab5965e-7dc3-4280-bdb7-195f7cfd6d66.png">
 
-   
 
 
 
