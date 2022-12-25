@@ -26,7 +26,19 @@ Ces étapes seront concrétisées à travers les projets suivants : <br><BR>
       <tr>
      <td>4</td> 
     <td> Activité Pratique N° 3 : Architectures Micro services avec (Spring Cloud Config, Consul Discovery, Consul Config,Vault)  </td>
-    <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Architectures%20Micro%20services%20avec%20(Spring%20Cloud%20Config%2C%20Consul%20Discovery%2C%20Consul%20Config%2CVault)">🔗</a></td>
+    <td>
+        <a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-  Processing/tree/main/Architectures%20Micro%20services%20avec%20(Spring%20Cloud%20Config%2C%20Consul%20Discovery%2C%20Consul%20Config%2CVault)">🔗</ a>
+  </td>
+  </tr>
+        <tr>
+     <td>5</td> 
+    <td> Activité pratique N° 4 : Sécurité des micro services avec Keycloak  </td>
+    <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/blob/main/S%C3%A9curit%C3%A9%20des%20micro%20services%20avec%20Keycloak/README.md">🔗</a></td>
+  </tr>
+        <tr>
+     <td>6</td> 
+    <td> Activité Pratique N°5 : Event Driven Architecture CQRS and Event Sourcing </td>
+    <td><a href="https://github.com/SAYOUJJIL/Systemes-Distribues-et-Big-Data-Processing/tree/main/Event%20Driven%20Architecture%20CQRS%20and%20Event%20Sourcing">🔗</a></td>
   </tr>
   
 </table>  
