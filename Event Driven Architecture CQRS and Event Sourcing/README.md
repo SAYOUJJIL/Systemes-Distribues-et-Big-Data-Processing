@@ -66,5 +66,11 @@ Eevent Sourcing : design pattern permettant de capturer tous les changements de 
       </exclusions>
     </dependency>
    <br>
+   ### 3.2. Captures
+![C1](https://user-images.githubusercontent.com/85376207/209465927-b3da8416-ee74-409c-8f20-385411bfa106.jpg)
+![C2](https://user-images.githubusercontent.com/85376207/209465926-ba840f51-f3b0-4eca-8ce4-138694bf6af3.jpg)
+![C3](https://user-images.githubusercontent.com/85376207/209465928-f1b49270-4c2c-4b97-9782-90bb43c1fd4a.jpg)
+![C4](https://user-images.githubusercontent.com/85376207/209465933-63ce9ad6-ff04-40d2-b963-a8c7722063bf.jpg)
+
       
     
